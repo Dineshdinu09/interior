@@ -10,6 +10,7 @@ height: 100vh;
     background-image:url(assets/bg.png);
     background-position: bottom;
     background-size:cover;
+    margin: auto;
 }
 
 
@@ -79,18 +80,21 @@ background: #1A3D34;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 20px 35px;
-font-size: 13px;
+padding: 20px 20px;
+font-size: 14px;
 
 position: relative;
-width: 249px;
-height: 54px;
+width: 270px;
+height: 58px;
 
 letter-spacing: 0.05em;
 margin:50px 0 0 0;
 
 background: #1A3D34;
 
+}
+.rtarw{
+    padding: 20px;
 }
 .main h1{
     font-family: Playfair Display;
@@ -189,7 +193,7 @@ text-align: left;
     background: #E5E5E5;
   display:flex;
   flex-direction: column;
-  
+  margin: auto;
     
     
     
@@ -211,7 +215,8 @@ color: #1A3D34;
     display: flex;
     flex-direction: row;
     
-     margin: 0 0 70px 50px; 
+     margin: auto; 
+     
 }
 
 
@@ -219,11 +224,13 @@ color: #1A3D34;
 .Mask{
     width: 550px;
 height: 329px;
-margin: 50px;
+margin: 70px;
 box-shadow: -25px 25px #1A3D34;
+
 }
 .Mask2{
     box-shadow: 20px 20px #1A3D34;
+    
 }
 .page3 .left h3{
     font-family: Playfair Display;
@@ -231,7 +238,8 @@ box-shadow: -25px 25px #1A3D34;
     font-weight: bold;
     font-size: 45px;
     line-height: 64px;
-    margin: 100px 0  0 50px ; 
+    margin: 100px 0  0 auto ; 
+    padding: 0 50px 0 50px;
     
   
 color: #1A3D34;
@@ -247,6 +255,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 width: 470px;
+
 
 color: #1A3D34;
 margin: 20px 0 0 50px;
@@ -265,14 +274,22 @@ background: #1A3D34;
 margin: 40px 0 0 50px;
 
 }
+.rtarw2{
+    padding-left: 15px;
+}
 .page4{
     background: #E5E5E5;
-    
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
 }
 .grid{
     
-padding-left: 50px;
-    margin-top: 70px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 50px;
+    margin: auto;
+   
     
     
 }
@@ -294,11 +311,13 @@ color: #1A3D34;
     vertical-align: top;
     margin-bottom: 60px;
     
+    
    }
    .column1{
        padding: 10px;
        
-       margin-left: 50px;
+       
+       margin:auto;
    }
    .image1, .image2{
        padding-bottom:18px;
