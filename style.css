@@ -222,10 +222,14 @@ text-align: center;
 
 color: #1A3D34;
 }
+.bblock{
+margin: auto;
+/* border: 2px solid red; */
+}
 .block{
     display: flex;
     flex-direction: row;
-    
+    /* border: 2px solid blue; */
      margin: auto auto 60px auto; 
      
 }
@@ -236,17 +240,19 @@ color: #1A3D34;
 .block_sub{
     display: flex;
     flex-direction: row;
-    padding-left: 70px;
-    margin-top: 30px;
+    padding-left: 0px;
+    margin-top: 30px auto 60px auto;
     margin-bottom: 60px;
+    /* border: 2px solid red; */
     
 }
+
 .block_sub2{
     display: flex;
     flex-direction: row;
-    padding-left: 70px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    padding-left: 90px;
+    margin-top: 30px auto 60px auto;
+    /* border: 2px solid red; */
 }
 
 
@@ -259,7 +265,7 @@ box-shadow: -25px 25px #1A3D34;
 }
 .Mask2{
     box-shadow: 20px 20px #1A3D34;
-    margin-left: 0px;
+   
 }
 
 .page3 .left h3{
@@ -344,7 +350,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 width: 520px;
-padding-right: 10px;
+/* padding-right: 10px; */
 
  
 color: #1A3D34;
@@ -352,10 +358,11 @@ color: #1A3D34;
 
 }
 
-.right3{
-    
-    margin-left: 60px;
-    
+
+.left3{
+    margin-left: -50px;
+    /* border: 2px solid green; */
+    padding-right: 60px;
 }
 .button3{
     color: white;
