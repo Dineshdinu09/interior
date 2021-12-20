@@ -328,6 +328,7 @@ margin: 40px 0 0 0;
     padding-left: 100px;
     padding-right: 100px;
     margin: auto;
+    /* border:  2px solid red; */
 }
 .grid{
      
@@ -336,6 +337,7 @@ padding-right: 20px;
 padding-top: 50px; 
     margin: auto;
    /* border:  2px solid red; */
+  
     
     
 }
@@ -378,7 +380,7 @@ color: #1A3D34;
 .container{
     background: #1A3D34;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 .container h1{
     font-family: Playfair Display;
@@ -387,7 +389,7 @@ font-weight: bold;
 font-size: 48px;
 line-height: 64px;
 text-align: center;
-/* padding-top: 30px; */
+padding-top: 35px;
 
 color: #FFFFFF;
 }
@@ -416,6 +418,7 @@ color: #FFFFFF;
         height: 100%;
         margin-top: 20px;
         
+        
        
         
         
@@ -423,7 +426,7 @@ color: #FFFFFF;
     }
     .framert{
         width: 68%;
-        height: 100%;
+        height: auto;
         
         
         
@@ -431,6 +434,7 @@ color: #FFFFFF;
     .photo{
         width: 99%;
 height: 236px;
+
 
 
 
@@ -445,6 +449,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
 color: #1A3D34;
+margin-top: -30px;
  }
 .des p{
     font-family: Poppins;
@@ -506,7 +511,7 @@ height: 30px;
 
 .container2{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: #E5E5E5;
 }
 .container2 h1{
@@ -592,7 +597,7 @@ height: 30px;
              padding: 10px;
          }
 .smallicons2{
-   margin-top: 100px;
+   margin-top: 150px;
    margin-left: 30px;
 }
 .smallicons2_sub{
