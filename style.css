@@ -224,36 +224,28 @@ color: #1A3D34;
 }
 .bblock{
 margin: auto;
-/* border: 2px solid red; */
+
 }
 .block{
     display: flex;
     flex-direction: row;
     /* border: 2px solid blue; */
      margin: auto auto 60px auto; 
-     
+    
+}
+.block_2{
+    column-gap: 80px;
+
+}
+.block_1{
+    column-gap: 90px;
 }
 .left{
     
     margin-left: 25px;
 }
-.block_sub{
-    display: flex;
-    flex-direction: row;
-    padding-left: 0px;
-    margin-top: 30px auto 60px auto;
-    margin-bottom: 60px;
-    /* border: 2px solid red; */
-    
-}
 
-.block_sub2{
-    display: flex;
-    flex-direction: row;
-    padding-left: 90px;
-    margin-top: 30px auto 60px auto;
-    /* border: 2px solid red; */
-}
+
 
 
 .Mask{
@@ -281,32 +273,7 @@ box-shadow: -25px 25px #1A3D34;
 color: #1A3D34;
 
 }
-.page3 .left2 h3{
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 64px;
-    margin: 100px auto  0 60px ; 
-    padding-bottom: 30px;
-    
-  
-color: #1A3D34;
 
-}
-.page3 .left3 h3{
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 64px;
-    margin: 100px 0  0 auto ; 
-    padding: 0 0 20px 0;
-    
-  
-color: #1A3D34;
-
-}
 .page3 .left p{
     font-family: Poppins;
 font-style: normal;
@@ -316,7 +283,7 @@ line-height: 24px;
 display: flex;
 align-items: center;
 letter-spacing: 0.05em;
-width: 520px;
+width: 490px;
 padding-right: 10px;
 
  
@@ -324,46 +291,10 @@ color: #1A3D34;
 /* margin: auto; */
 
 }
-.page3 .left2 p{
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-width: 540px;
 
 
-color: #1A3D34;
-margin: 0 auto  0 60px ; 
-
-}
-.page3 .left3 p{
-    font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-letter-spacing: 0.05em;
-width: 520px;
-/* padding-right: 10px; */
-
- 
-color: #1A3D34;
-/* margin: auto; */
-
-}
 
 
-.left3{
-    margin-left: -50px;
-    /* border: 2px solid green; */
-    padding-right: 60px;
-}
 .button3{
     color: white;
     display: flex;
@@ -387,7 +318,7 @@ padding: 6px 24px;
 position: absolute;
 
 background: #1A3D34;
-margin: 40px 0 0 60px;
+margin: 40px 0 0 0;
 }
 .rtarw2{
     padding-left: 15px;
@@ -399,12 +330,12 @@ margin: 40px 0 0 60px;
     margin: auto;
 }
 .grid{
-    
-padding-left: 20px;
+     
+ padding-left: 30px;
 padding-right: 20px;
-padding-top: 50px;
+padding-top: 50px; 
     margin: auto;
-   
+   /* border:  2px solid red; */
     
     
 }
@@ -426,7 +357,7 @@ color: #1A3D34;
     vertical-align: top;
     margin-bottom: 60px;
     
-    
+    /* border: 2px solid blue; */
    }
    .column1{
        padding: 10px;
