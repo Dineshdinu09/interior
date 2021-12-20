@@ -332,11 +332,11 @@ margin: 40px 0 0 0;
 }
 .grid{
      
- padding-left: 30px;
-padding-right: 20px;
+
 padding-top: 50px; 
     margin: auto;
    /* border:  2px solid red; */
+   width: fit-content;
   
     
     
