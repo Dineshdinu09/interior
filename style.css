@@ -512,8 +512,9 @@ height: 30px;
 .container2{
     width: 100%;
     height: 100%;
+    padding-top: 30px;
+    padding-bottom: 90px;
     background: #E5E5E5;
-    padding-bottom: 60px;
 }
 .container2 h1{
     font-family: Playfair Display;
@@ -531,16 +532,18 @@ height: 30px;
 }
 
 .block2{
-    width: 80%;
-    height: 558px;
+    width: fit-content;
+height: 558px;
     display: flex;
     flex-direction: row;
     /* border: 2px solid blue; */
-     margin : auto;
+     margin: auto;
+     padding-top: 30px;
+    
   }
   .lblock{
-    width: 406px;
-      height: auto;
+    width: 380px;
+    height: 558px;
      
       /* border: 2px solid yellow; */
       background: #1A3D34;
@@ -548,8 +551,8 @@ height: 30px;
       
   }
   .rblock{
-      width: 802px;
-      height: auto;
+      width: 790px;
+      height: 558px;
       background:white;
      
       
@@ -561,8 +564,10 @@ height: 30px;
         font-size: 28px;
         line-height: 37px;
         align-items: center;
-        margin-top: 40px;
-         margin-left: 20px; 
+        /* margin-top: 40px;
+         margin-left: 20px;  */
+         padding-left: 40px;
+         padding-top: 40px;
        
         color: #FFFFFF;
      }
@@ -576,8 +581,9 @@ height: 30px;
         align-items: center;
         color: #FFFFFF;
         opacity: 0.7;
-        margin-top: 15px;
-        margin-left: 20px;
+        /* margin-top: 15px;
+        margin-left: 20px; */
+        padding:40px;
      }
      .lblock p{
         font-family: Poppins;
@@ -591,12 +597,10 @@ height: 30px;
         color: #FFFFFF;
      }
      .p2{
-         margin-left: 30px;
-         margin-top: 40px;
+         padding: 30px 0 0 40px ;
          }
          .p3, .p4{
-            margin-left: 30px;
-            margin-top: 10px;
+            padding: 10px 0 0 40px;
          }
          .smallicons{
              padding: 10px;
@@ -604,8 +608,8 @@ height: 30px;
 .smallicons2{
     
     
-   margin-top: 130px;
-   margin-left: 30px;
+   padding-top: 80px;
+   padding-left: 40px;
    /* border: 2px solid red; */
 }
 .smallicons2_sub{
@@ -622,7 +626,8 @@ padding: 10px;
     display: flex;
     flex-direction: row;
     
-   margin-top: 50px;
+   padding-top: 50px;
+   padding-left: 30px;
    /* border: 2px solid blue; */
 }
 .details label{
@@ -633,6 +638,7 @@ padding: 10px;
     line-height: 18px;
      color: #1A3D34;
     opacity: 0.8;
+    
     
 }
 .details input{
@@ -651,8 +657,9 @@ padding: 10px;
     margin-left: 60px;
 }
 .rblock_h2{
-    margin-left: 40px;
-    margin-top: 60px;
+    padding-left: 70px;
+    padding-top: 80px;
+    /* border: 2px solid blue; */
 }
 .rblock_h2 h2{
     font-family: Poppins;
@@ -666,8 +673,9 @@ opacity: 0.8;
 .rblock_btns{
     display: flex;
     flex-direction: row;
-
+padding:30px 0 25px 70px;
     /* border: 2px solid red; */
+    column-gap: 70px;
 }
 
 .btn1:hover, .btn2:hover, .btn3:hover  {
@@ -683,8 +691,8 @@ font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 
-background: #57C2A7;;
-margin: 20px 0 0 40px;
+background: #57C2A7;
+/* margin: 20px 0 0 40px; */
 } 
 .btn1,.btn2,.btn3{
     color: black;
@@ -692,18 +700,20 @@ margin: 20px 0 0 40px;
 flex-direction: row;
 justify-content:center;
 align-items: center;
-padding: 6px 24px;
+padding: 6px 28px;
 font-size: 14px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 border: 1px solid rgba(26, 61, 52, 0.8);
 background: #FFFFFF;
-margin: 20px 0 0 40px;
+/* margin: 20px 0 0 40px; */
+
 cursor: pointer;
 }
 .rblock_lbl_txt{
-    margin: 40px 0 0 40px;
+    padding: 30px 0 20px 70px;
+    /* border: 2px solid blue; */
     
 }
 .txt_lbl{
@@ -719,26 +729,30 @@ color: #1A3D34;
 
 opacity: 0.8;
 }
-.txt_lbl2{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
-    opacity: 0.4;
-    margin-top: 5px;
-}
+
 .rblock_lbl_txt input{
     height: 100%;
-    width: 525px;
+    width: 630px;
     border: none;
     border-bottom: 1px solid #1A3D34;
-    margin-top: 25px;
+    padding-top: 40px;
 
 }
+.rblock_lbl_txt input::placeholder{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.4;
+}
 .last_btn{
-    margin-left: 275px;
+    padding-left: 380px;
 }
 .btn4{
     color: white;
