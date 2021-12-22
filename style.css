@@ -724,13 +724,16 @@ opacity: 0.8;
 }
 
 .rblock_lbl_txt input{
-    height: 100%;
+    
     width: 630px;
     border: none;
     border-bottom: 1px solid #1A3D34;
-    padding: 19px ​0 48px  0;
+    
+    
     
     outline: none;
+    padding: 19px 0 48px 0;
+
 
 
 }
