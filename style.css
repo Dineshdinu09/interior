@@ -46,6 +46,9 @@ height: 32px;
 
 .nav-links li{
     margin: 0 30px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
 }
 
 .button1{
@@ -129,11 +132,12 @@ color: #FFFFFF;
 }
 
 .flexbox{
-    width: auto;
+    width: 1150px;
     height: auto;
   margin:auto; 
       text-align: center;
     padding: 50px;
+    /* border: 2px solid red; */
     }
   
 .card{
@@ -231,11 +235,12 @@ margin: auto;
     display: flex;
     flex-direction: row;
     /* border: 2px solid blue; */
-     margin: auto auto 60px auto; 
+     margin: auto auto 100px auto; 
     
 }
 .block_2{
     column-gap: 80px;
+    
 
 }
 .block_1{
@@ -381,7 +386,9 @@ color: #1A3D34;
 .container{
     background: #1A3D34;
     width: 100%;
-    height: 110vh;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 137px;
 }
 .container h1{
     font-family: Playfair Display;
@@ -390,35 +397,41 @@ font-weight: bold;
 font-size: 48px;
 line-height: 64px;
 text-align: center;
-padding-top: 35px;
+
+padding-top: 30px;
+padding-bottom: 30px;
 
 color: #FFFFFF;
 }
 .container .rectangle{
-    width: 70%;
-    height: 70%;
+    width: 1052px;
+    height: 505px;
     background: #1A3D34;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-    margin: 30px 0 0 200px;
+    margin: auto;
+    padding: 61px 114px;
+    
    
     
 }
  .rectangle2{
-     position: relative;
-    width: 70%;
-    height: 70%;
+     
+     width: 824px;
+     height: 385px;
     background: #1A3D34;
     
-    left: 130px;
-    top: 70px;
+    padding-left: 20px;
+    
     display: flex;
     }
     .frame{
-        width: 28%;
+        width: 210px;
+        height: 330px;
         background: #FFFFFF;
-        height: 90%;
-        margin-top: 20px;
         
+        margin-top: 15px;
+    
+        margin-left: -16px;
         
        
         
@@ -426,15 +439,16 @@ color: #FFFFFF;
         
     }
     .framert{
-        width: 68%;
+        width: 640px;
         height: auto;
         
-        
+        /* border:2px solid red; */
+        padding-left: 35px;
         
     }
     .photo{
         width: 99%;
-height: 236px;
+height: 256px;
 
 
 
@@ -444,7 +458,7 @@ height: 236px;
         font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
+font-size: 20px;
 line-height: 33px;
 align-items: center;
 text-align: center;
@@ -456,12 +470,12 @@ margin-top: -30px;
     font-family: Poppins;
 font-style: normal;
 font-weight: normal;
-font-size: 10px;
+font-size: 12px;
 line-height: 21px;
 align-items: center;
 text-align: center;
 letter-spacing: 0.05em;
-
+margin-top: -30px;
 color: #1A3D34;
 }
 .rthead h1{
@@ -469,11 +483,11 @@ color: #1A3D34;
     display: flex;
 font-style: normal;
 font-weight: bold;
-font-size: 28px;
+font-size: 36px;
 width: 370px;
 line-height: 48px;
 color: #FFFFFF;
-margin-top: 20px;
+
 margin-left: 70px;
 }
 .rtp p{
@@ -482,31 +496,41 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 22px;
-width: 474px;
-
-margin-left: 70px;
+width: 450px;
+/* margin-top: -20px; */
+margin-left: 120px;
 display: flex;
 align-items: center;
 letter-spacing: 0.05em;
 color: #FDFDFD;
 opacity: 0.8;
 }
+.rectanglebg{
+    width: 175px;
+    height: 361px;
+    background: #57C2A7;
+    border-radius: 20px;
+
+  
+    
+}
 .rectangle3{
     width: 50%;
     height: 1%;
     background: #57C2A7;
     margin-top: 50px;
+    margin-left: -16px;
 }
 .quote-left{
     
-    margin-left: 35px;
-    width: 30px;
-height: 30px;
+    margin-left: 70px;
+    width: 36px;
+height: 36px;
 }
 .quote-right{
-    width: 30px;
-    height: 30px;
-    margin-left: 485px;
+    width: 36px;
+    height: 36px;
+    margin-left: 525px;
 }
 
 
@@ -766,15 +790,15 @@ margin: 40px 0 0 50px;
 .last{
     background-color:#1A3D34 ;
     width: 100%;
-    height: 60vh;
+    height: 390px;
 
     }
    .lastblock{
        width: 100%;
        
        
-      padding-top: 100px;
-      padding-left: 120px;
+      padding: 100px 120px 100px 120px;
+      
 
     }
    
