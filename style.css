@@ -12,7 +12,8 @@ background-color: #F1F1F2;
     background-image:url(assets/bg.png);
     background-repeat: no-repeat;
    
-    background-position:right ;
+    background-position:bottom right -132px
+    ;
     background-size:contain;
     margin: auto;
     
@@ -57,7 +58,7 @@ font-weight: normal;
 
 .button1{
     
-    color: white;
+    
     display: flex;
 flex-direction: row;
 justify-content: center;
@@ -67,8 +68,16 @@ padding: 6px 24px;
 width: 168px;
 height: 48px;
 margin: 0 0 0 25px;
+border: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+color: #DDDDDD;
+font-size: 16px;
 
 background: #1A3D34;
+cursor: pointer;
+
 
 }
 .inbox{
@@ -83,22 +92,30 @@ background: #1A3D34;
 .button2{
     
     
-    color: white;
+    
     display: flex;
 flex-direction: row;
-justify-content: center;
+justify-content:center;
 align-items: center;
-padding: 20px 20px;
-font-size: 14px;
+padding: 20px 22px;
+
 
 position: relative;
-width: 270px;
-height: 58px;
+width: 300px;
+height: 55px;
 
 letter-spacing: 0.05em;
 margin:50px 0 0 0;
+border: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+color: #DDDDDD;
+font-size: 15px;
 
 background: #1A3D34;
+cursor: pointer;
+
 
 }
 .rtarw{
@@ -161,7 +178,7 @@ cursor: pointer;
   box-sizing: border-box;
     margin: 30px 30px;
     background:  #081f19;
-    box-shadow:  -2px 0   #57C2A7;;
+    box-shadow:  -2px 0   #57C2A7;
     filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.25));
     
 }
@@ -306,7 +323,7 @@ color: #1A3D34;
 
 
 .button3{
-    color: white;
+    
     display: flex;
 flex-direction: row;
 justify-content:center;
@@ -316,19 +333,35 @@ position: absolute;
 
 background: #1A3D34;
 margin: 40px 0 0 0px;
+cursor: pointer;
+border: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+color: #DDDDDD;
+font-size: 16px;
+
 
 }
 .button3_2{
-    color: white;
+    
     display: flex;
 flex-direction: row;
 justify-content:center;
 align-items: center;
 padding: 6px 24px;
 position: absolute;
+border: none;
 
 background: #1A3D34;
 margin: 40px 0 0 0;
+cursor: pointer;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+color: #DDDDDD;
+font-size: 16px;
+
 }
 .rtarw2{
     padding-left: 15px;
@@ -782,7 +815,7 @@ opacity: 0.4;
     padding-left: 380px;
 }
 .btn4{
-    color: white;
+    
    justify-content:center;
 align-items: center;
 padding: 6px 24px;
@@ -790,6 +823,14 @@ width: 278px;
 height: 48px;
 background: #1A3D34;
 margin: 40px 0 0 50px;
+cursor: pointer;
+border: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+color: #DDDDDD;
+font-size: 16px;
+
 }
 .last{
     background-color:#1A3D34 ;
