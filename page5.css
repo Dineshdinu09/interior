@@ -1,0 +1,137 @@
+.container {
+    background: #1A3D34;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 137px;
+}
+
+.container h1 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.container .rectangle {
+    width: 1052px;
+    height: 505px;
+    background: #1A3D34;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 61px 114px;
+}
+
+.rectangle2 {
+    width: 824px;
+    height: 385px;
+    background: #1A3D34;
+    padding-left: 20px;
+    display: flex;
+}
+
+.frame {
+    width: 210px;
+    height: 330px;
+    background: #FFFFFF;
+    margin-top: 15px;
+    margin-left: -16px;
+}
+
+.framert {
+    width: 640px;
+    height: auto;
+    /* border:2px solid red; */
+    padding-left: 35px;
+}
+
+.photo {
+    width: 99%;
+    height: 256px;
+}
+
+.name h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1A3D34;
+    margin-top: -30px;
+}
+
+.des p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: -30px;
+    color: #1A3D34;
+}
+
+.rthead h1 {
+    font-family: Playfair Display;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    width: 370px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-left: 70px;
+}
+
+.rtp p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    width: 450px;
+    /* margin-top: -20px; */
+    margin-left: 120px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FDFDFD;
+    opacity: 0.8;
+}
+
+.rectanglebg {
+    width: 175px;
+    height: 361px;
+    background: #57C2A7;
+    border-radius: 20px;
+}
+
+.rectangle3 {
+    width: 50%;
+    height: 1%;
+    background: #57C2A7;
+    margin-top: 50px;
+    margin-left: -16px;
+}
+
+.quote-left {
+    margin-left: 70px;
+    width: 36px;
+    height: 36px;
+}
+
+.quote-right {
+    width: 36px;
+    height: 36px;
+    margin-left: 525px;
+}
