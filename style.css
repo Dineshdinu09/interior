@@ -19,7 +19,7 @@
 }
 
 .container .rectangle {
-    width: 1052px;
+    width: 80%;
     height: 505px;
     background: #1A3D34;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
@@ -28,11 +28,12 @@
 }
 
 .rectangle2 {
-    width: 824px;
+    width: 75%;
     height: 385px;
     background: #1A3D34;
     padding-left: 20px;
     display: flex;
+    border: 2px solid red;
 }
 
 .frame {
@@ -134,4 +135,21 @@
     width: 36px;
     height: 36px;
     margin-left: 525px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .rectangle2 {
+        width: 824px;
+        height: 385px;
+        background: #1A3D34;
+        padding-left: 20px;
+        display: flex;
+    }
+    .rectanglebg {
+        width: 175px;
+        height: 361px;
+        background: #57C2A7;
+        border-radius: 20px;
+        display: none;
+    }
 }
