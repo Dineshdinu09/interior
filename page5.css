@@ -19,7 +19,7 @@
 }
 
 .container .rectangle {
-    max-width: 808px;
+    max-width: 979px;
     height: fit-content;
     background: #1A3D34;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
@@ -122,6 +122,7 @@
     letter-spacing: 0.05em;
     color: #FDFDFD;
     opacity: 0.8;
+    max-width: 500px
 }
 
 .quote-left {
@@ -141,10 +142,10 @@
 
 @media only screen and (max-width: 1100px) {
     .rectangle2 {
-        height: 385px;
+        height: 309px;
         background: #1A3D34;
-        padding-left: 20px;
         display: flex;
+        padding: 0px 20px 10px 20px;
     }
     .container .rectangle {
         margin-left: 40px;
@@ -221,12 +222,23 @@
     }
     .quote-left {
         margin-left: 0px;
-        width: 21.2px;
-        height: 21.2px;
+        width: fit-content;
+        height: fit-content;
+        /* border: 2px solid red; */
+    }
+    .quote-left img {
+        width: 25px;
+        height: 25px;
     }
     .quote-right {
-        width: 21.2px;
-        height: 21.2px;
+        width: fit-content;
+        height: fit-content;
+        float: right;
+        /* border: 2px solid red; */
+    }
+    .quote-right img {
+        width: 25px;
+        height: 25px;
     }
     .rectangle3 {
         display: none;
@@ -249,10 +261,8 @@
     .h1 {
         font-size: 32px;
     }
-}
-
-@media only screen and (max-width: 369px) {
-    .h1 {
-        font-size: 28px;
+    .rectangle2 {
+        height: 324px;
+        border-radius: 13px;
     }
 }
