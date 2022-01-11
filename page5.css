@@ -6,7 +6,7 @@
     padding-bottom: 137px;
 }
 
-.container h1 {
+.h1 {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -19,20 +19,22 @@
 }
 
 .container .rectangle {
-    width: 1052px;
-    height: 505px;
+    max-width: 808px;
+    height: fit-content;
     background: #1A3D34;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
     margin: auto;
-    padding: 61px 114px;
+    padding: 61px 90px 61px 114px;
+    /* border: 2px solid red; */
 }
 
 .rectangle2 {
-    width: 824px;
-    height: 385px;
+    width: 100%;
+    height: fit-content;
     background: #1A3D34;
     padding-left: 20px;
     display: flex;
+    /* border: 2px solid blue; */
 }
 
 .frame {
@@ -44,9 +46,9 @@
 }
 
 .framert {
-    width: 640px;
+    max-width: 640px;
     height: auto;
-    /* border:2px solid red; */
+    /* border: 2px solid red; */
     padding-left: 35px;
 }
 
@@ -65,7 +67,7 @@
     text-align: center;
     letter-spacing: 0.05em;
     color: #1A3D34;
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
 .des p {
@@ -77,36 +79,8 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
-    margin-top: -30px;
+    margin-top: -10px;
     color: #1A3D34;
-}
-
-.rthead h1 {
-    font-family: Playfair Display;
-    display: flex;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    width: 370px;
-    line-height: 48px;
-    color: #FFFFFF;
-    margin-left: 70px;
-}
-
-.rtp p {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    width: 450px;
-    /* margin-top: -20px; */
-    margin-left: 120px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.05em;
-    color: #FDFDFD;
-    opacity: 0.8;
 }
 
 .rectanglebg {
@@ -124,14 +98,161 @@
     margin-left: -16px;
 }
 
+.rthead h1 {
+    font-family: Playfair Display;
+    display: flex;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.rtp p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* margin-top: 0px; */
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FDFDFD;
+    opacity: 0.8;
+}
+
 .quote-left {
-    margin-left: 70px;
+    margin-left: 50px;
+    /* margin-top: 20px; */
     width: 36px;
     height: 36px;
+    /* border: 2px solid red; */
 }
 
 .quote-right {
     width: 36px;
     height: 36px;
-    margin-left: 525px;
+    float: right;
+    /* border: 2px solid yellow; */
+}
+
+@media only screen and (max-width: 1100px) {
+    .rectangle2 {
+        height: 385px;
+        background: #1A3D34;
+        padding-left: 20px;
+        display: flex;
+    }
+    .container .rectangle {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .rectangle2 {
+        display: flex;
+        flex-direction: column-reverse;
+        /* padding-right: 20px; */
+        box-shadow: 0px 0px 30px rgb(0 0 0 / 50%);
+    }
+    .frame {
+        display: flex;
+        background: transparent;
+        width: fit-content;
+        height: fit-content;
+        padding: 10px 20px 10px 20px;
+    }
+    .rectanglebg {
+        background: transparent;
+        width: fit-content;
+        height: fit-content;
+    }
+    .container .rectangle {
+        padding: 0;
+    }
+    .rthead h1 {
+        font-size: 30px;
+        margin-left: 0px;
+        position: relative;
+    }
+    .rthead h1::after {
+        content: "";
+        border: 2px solid #57C2A7;
+        position: absolute;
+        width: 225px;
+        bottom: 0%;
+    }
+    .photo {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        border: 2px solid white;
+        object-fit: cover;
+    }
+    #namemain {
+        margin-left: 20px;
+    }
+    .name h1 {
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .des p {
+        color: white;
+        margin-top: 0px;
+        text-align: left;
+    }
+    .rtp p {
+        max-width: 600px;
+        font-size: 14px;
+        display: inherit;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .framert {
+        padding-left: 0px;
+    }
+    .content {
+        /* border: 2px solid red; */
+    }
+    .quote-left {
+        margin-left: 0px;
+        width: 21.2px;
+        height: 21.2px;
+    }
+    .quote-right {
+        width: 21.2px;
+        height: 21.2px;
+    }
+    .rectangle3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .rtp p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 369px) {
+    .h1 {
+        font-size: 28px;
+    }
 }
