@@ -30,17 +30,22 @@
 }
 
 .lblock {
-    width: 380px;
+    width: 35%;
     height: 558px;
     /* border: 2px solid yellow; */
     background: #1A3D34;
     overflow: hidden;
+    /* display: none; */
 }
 
 .rblock {
-    width: 790px;
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
     height: 558px;
     background: white;
+    justify-content: space-between;
+    padding: 40px 40px 40px 40px;
 }
 
 .lblock h2 {
@@ -117,10 +122,13 @@
 
 .details {
     display: flex;
-    flex-direction: row;
-    padding-top: 50px;
-    padding-left: 30px;
-    /* border: 2px solid blue; */
+    /* flex-direction: row; */
+    /* padding-top: 50px; */
+    /* padding-left: 30px; */
+    border: 2px solid blue;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .details label {
@@ -143,17 +151,25 @@
 }
 
 .y_name {
-    margin-left: 40px;
+    margin-left: 0;
+    width: 100%;
+    height: 49px;
+    border: 1px solid red;
+    margin: 0 0 0 0;
 }
 
 .mobile_no {
-    margin-left: 60px;
+    margin-left: 0;
+    width: 100%;
+    height: 49px;
+    border: 1px solid red;
+    margin: 0 0 0 23px;
 }
 
 .rblock_h2 {
-    padding-left: 70px;
-    padding-top: 80px;
-    /* border: 2px solid blue; */
+    /* padding-left: 70px; */
+    /* padding-top: 80px; */
+    border: 2px solid blue;
 }
 
 .rblock_h2 h2 {
@@ -169,8 +185,8 @@
 .rblock_btns {
     display: flex;
     flex-direction: row;
-    padding: 30px 0 25px 70px;
-    /* border: 2px solid red; */
+    /* padding: 30px 0 25px 70px; */
+    border: 2px solid red;
     column-gap: 70px;
 }
 
@@ -203,8 +219,8 @@
 }
 
 .rblock_lbl_txt {
-    padding: 30px 0 20px 70px;
-    /* border: 2px solid blue; */
+    /* padding: 30px 0 20px 70px; */
+    border: 2px solid blue;
 }
 
 .txt_lbl {
@@ -256,3 +272,10 @@
     color: #DDDDDD;
     font-size: 16px;
 }
+
+
+/* @media screen and (max-device-width: 1100px) {
+    .block2 {
+        display: block;
+    }
+} */
