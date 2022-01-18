@@ -263,3 +263,12 @@
         border-radius: 13px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .h1 {
+        font-size: 28px;
+    }
+    .rthead h1 {
+        font-size: 25px;
+    }
+}

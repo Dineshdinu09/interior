@@ -26,6 +26,8 @@
     flex-direction: row;
     /* border: 2px solid blue; */
     margin: auto auto 100px auto;
+    align-items: center;
+    column-gap: 80px;
 }
 
 .block_2 {
@@ -57,9 +59,14 @@
     font-weight: bold;
     font-size: 45px;
     line-height: 64px;
-    margin: 100px 0 0 auto;
-    padding: 0 80px 20px 0;
+    /* margin: 100px 0 0 auto; */
+    /* padding: 0 80px 20px 0; */
     color: #1A3D34;
+}
+
+.left div {
+    /* border: 2px solid red; */
+    margin-right: 20px;
 }
 
 .page3 .left p {
@@ -71,10 +78,10 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.05em;
-    width: 490px;
-    padding-right: 10px;
+    max-width: 520px;
+    /* padding-right: 10px; */
     color: #1A3D34;
-    /* margin: auto; */
+    margin: auto;
 }
 
 .button3 {
@@ -82,8 +89,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 6px 24px;
-    position: absolute;
+    padding: 5px 10px;
+    /* position: absolute; */
     background: #1A3D34;
     margin: 40px 0 0 0px;
     cursor: pointer;
@@ -100,8 +107,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 6px 24px;
-    position: absolute;
+    padding: 5px 10px;
+    /* position: absolute; */
     border: none;
     background: #1A3D34;
     margin: 40px 0 0 0;
@@ -143,5 +150,39 @@
     }
     .page3 .left p {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .Mask {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .Mask {
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .page3 h2 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .page3 .left h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .button3 {
+        margin: 40px 0 0 -40px
+    }
+    .button3_2 {
+        margin: 40px 0 0 -40px
     }
 }
