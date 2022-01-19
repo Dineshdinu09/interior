@@ -184,6 +184,9 @@
 /* ---------mobile------- */
 
 @media only screen and (max-width: 420px) {
+    .page2 h2 {
+        font-size: 35px;
+    }
     .card img {
         width: 40px;
         height: 40px;

@@ -353,6 +353,9 @@
         .block2 {
             width: 90%;
         }
+        .container2 h1 {
+            font-size: 35px;
+        }
     }
     @media screen and (max-device-width: 510px) {
         .btn1,

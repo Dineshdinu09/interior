@@ -74,4 +74,7 @@
     .page4 {
         padding: 50px 30px 100px 30px;
     }
+    .page4 h1 {
+        font-size: 35px;
+    }
 }
