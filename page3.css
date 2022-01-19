@@ -82,7 +82,7 @@
     max-width: 520px;
     /* padding-right: 10px; */
     color: #1A3D34;
-    margin: auto;
+    margin: 15px auto;
 }
 
 .button3 {
@@ -90,7 +90,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
+    padding: 13px 30px;
     /* position: absolute; */
     background: #1A3D34;
     margin: 40px 0 0 0px;
@@ -108,7 +108,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
+    padding: 13px 30px;
     /* position: absolute; */
     border: none;
     background: #1A3D34;
@@ -145,6 +145,7 @@
     .button3_2 {
         /* transform: translate(90%, -20%); */
         margin: 40px auto 0 auto;
+        padding: 8px 18px;
     }
     .page3 .left h3 {
         margin: auto;
@@ -158,6 +159,7 @@
 @media only screen and (max-width: 620px) {
     .Mask {
         width: 90%;
+        height: 240px;
     }
 }
 
@@ -175,7 +177,7 @@
 
 @media only screen and (max-width: 420px) {
     .page3 .left h3 {
-        font-size: 30px;
+        font-size: 26px;
         line-height: 40px;
     }
 }
