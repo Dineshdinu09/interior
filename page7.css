@@ -1,12 +1,12 @@
 .last {
     background-color: #1A3D34;
     width: 100%;
-    height: 390px;
+    height: 500px;
 }
 
 .lastblock {
     width: 100%;
-    padding: 100px 120px 100px 120px;
+    padding: 100px 120px 60px 120px;
 }
 
 .last h1 {
@@ -26,6 +26,8 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
+    max-width: 670px;
+    min-width: 450px;
     font-size: 16px;
     line-height: 24px;
     display: flex;
@@ -48,8 +50,79 @@
     opacity: 0.6;
 }
 
+.address h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.address h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 960px) {
+    .last {
+        height: auto;
+    }
+    #footer_h2 {
+        justify-content: center;
+        margin-top: 0px;
+    }
+    #footer_icons {
+        text-align: center;
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .address {
+        display: none;
+    }
+    #footer_icons {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .lastblock {
-        padding: 35px 35px;
+        padding: 60px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .lastblock {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .last p {
+        min-width: inherit;
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    #footer_h2 {
+        font-size: 13px;
+    }
+    .last p,
+    .address h2,
+    .address h1 {
+        font-size: 13px;
     }
 }

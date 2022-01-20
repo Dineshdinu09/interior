@@ -308,9 +308,7 @@
         text-align: justify;
     }
     .smallicons2 {
-        /* display: none; */
-        position: absolute;
-        bottom: -515px;
+        display: none;
     }
     .block2 {
         height: auto;
@@ -322,6 +320,9 @@
         display: none;
     }
     .lblock .p4 {
+        display: none;
+    }
+    .smlicon_loc {
         display: none;
     }
     .lblock .p1 {
@@ -349,7 +350,7 @@
         height: 558px;
         background: white;
         justify-content: space-between;
-        padding: 40px 40px 40px 40px;
+        padding: 4vw;
         margin: 50px auto 0 auto;
     }
 }
