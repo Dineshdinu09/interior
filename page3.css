@@ -173,11 +173,19 @@
     .page3 h2 {
         font-size: 35px;
     }
+    .button3,
+    .button3_2 {
+        margin: 20px auto 0 auto;
+    }
 }
 
 @media only screen and (max-width: 420px) {
     .page3 .left h3 {
         font-size: 26px;
         line-height: 40px;
+    }
+    .page3 .left p {
+        font-size: 12px;
+        line-height: 22px;
     }
 }
