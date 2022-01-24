@@ -274,6 +274,13 @@
     }
 }
 
+@media screen and (min-device-width: 1000px) {
+    .rblock_btns {
+        justify-content: flex-start;
+        column-gap: 60px;
+    }
+}
+
 @media screen and (max-device-width: 1000px) {
     .lblock h2 {
         font-size: 20px;

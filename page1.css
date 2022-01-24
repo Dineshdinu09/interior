@@ -1,12 +1,26 @@
-.main {
+/* .main {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #F1F1F2;
     background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-position: bottom right -132px;
     background-size: contain;
     margin: auto;
+} */
+
+.main {
+    width: 100%;
+    height: 48vw;
+    background-color: #F1F1F2;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right -132px;
+    background-size: 1027px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fas {
@@ -17,11 +31,22 @@ ul {
     list-style: none;
 }
 
+
+/* .navbar {
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+} */
+
 .navbar {
     display: flex;
     width: 90%;
     padding: 20px;
     margin: auto;
+    height: fit-content;
+    position: absolute;
+    top: 0;
 }
 
 .logo {
@@ -67,7 +92,7 @@ ul {
     flex-direction: column;
     width: 90%;
     margin: auto;
-    padding: 150px 0;
+    /* padding: 150px 0; */
 }
 
 .button2 {
@@ -107,7 +132,17 @@ ul {
     height: 160px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .main h1 {
+        font-size: 65px;
+    }
+}
+
 @media only screen and (max-width: 780px) {
+    .main {
+        height: 100vh;
+        background-size: contain;
+    }
     .main h1 {
         font-size: 60px;
         text-align: center;
@@ -120,6 +155,9 @@ ul {
         width: 70%;
         font-size: 11px;
         height: 40px;
+    }
+    .nav-links {
+        display: none;
     }
 }
 
