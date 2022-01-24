@@ -23,7 +23,7 @@
     height: fit-content;
     background: #1A3D34;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-    margin: auto;
+    margin: 40px auto auto auto;
     padding: 61px 90px 61px 114px;
     /* border: 2px solid red; */
 }

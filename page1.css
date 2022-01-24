@@ -139,9 +139,14 @@ ul {
 }
 
 @media only screen and (max-width: 780px) {
+    /* .main {
+        height: 100vh;
+        background-size: contain;
+    } */
     .main {
         height: 100vh;
         background-size: contain;
+        background-position: bottom center;
     }
     .main h1 {
         font-size: 60px;
@@ -167,13 +172,7 @@ ul {
         line-height: 60px;
         height: 90px;
     }
-}
-
-@media only screen and (max-width: 680px) {
     .main {
-        background-position: bottom right 0px;
-    }
-    .nav-links {
-        display: none;
+        background-size: 620px;
     }
 }
